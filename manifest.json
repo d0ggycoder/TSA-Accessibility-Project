@@ -1,0 +1,10 @@
+{
+    "manifest_version":3,
+    "name":"TSA Accessibility project",
+    "version":"1.0.0",
+    "description":"TSA Accessibility project for software development 2025-2026",
+    "content_scripts": [{
+        "js" : ["scripts/examplescript.js"],
+        "matches": ["<all_urls>"]
+    }]
+}
